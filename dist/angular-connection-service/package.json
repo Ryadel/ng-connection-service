@@ -1,0 +1,54 @@
+{
+  "name": "angular-connection-service",
+  "version": "13.0.1",
+  "description": "Detects active internet connection in Angular application.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ultrasonicsoft/angular-connection-service"
+  },
+  "keywords": [
+    "detect",
+    "internet",
+    "connection",
+    "angular",
+    "service",
+    "HTTP"
+  ],
+  "author": "Balram Chavan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ultrasonicsoft/angular-connection-service/issues"
+  },
+  "homepage": "https://github.com/ultrasonicsoft/angular-connection-service#readme",
+  "peerDependencies": {
+    "lodash": ">=4",
+    "@angular/common": ">=7",
+    "@angular/core": ">=7"
+  },
+  "module": "fesm2015/angular-connection-service.mjs",
+  "es2020": "fesm2020/angular-connection-service.mjs",
+  "esm2020": "esm2020/angular-connection-service.mjs",
+  "fesm2020": "fesm2020/angular-connection-service.mjs",
+  "fesm2015": "fesm2015/angular-connection-service.mjs",
+  "typings": "angular-connection-service.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./angular-connection-service.d.ts",
+      "esm2020": "./esm2020/angular-connection-service.mjs",
+      "es2020": "./fesm2020/angular-connection-service.mjs",
+      "es2015": "./fesm2015/angular-connection-service.mjs",
+      "node": "./fesm2015/angular-connection-service.mjs",
+      "default": "./fesm2020/angular-connection-service.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
+}

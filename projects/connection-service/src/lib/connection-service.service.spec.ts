@@ -2,7 +2,7 @@ import { TestBed, inject } from '@angular/core/testing';
 
 import { ConnectionService } from './connection-service.service';
 
-describe('ConnectionServiceService', () => {
+describe('HeartbeatService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [ConnectionService]

@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {ConnectionState, ConnectionService} from 'ng-connection-service';
+import { ConnectionState, ConnectionService } from 'angular-connection-service';
 
 @Component({
   selector: 'app-status-check',

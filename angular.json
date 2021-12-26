@@ -122,7 +122,7 @@
         }
       }
     },
-    "ng-connection-service": {
+    "angular-connection-service": {
       "root": "projects/connection-service",
       "sourceRoot": "projects/connection-service/src",
       "projectType": "library",

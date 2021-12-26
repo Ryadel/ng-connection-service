@@ -17,11 +17,11 @@
       "dom"
     ],
     "paths": {
-      "ng-connection-service": [
-        "dist/ng-connection-service"
+      "angular-connection-service": [
+        "dist/angular-connection-service"
       ],
-      "ng-connection-service/*": [
-        "dist/ng-connection-service/*"
+      "ng-heartbeat-service/*": [
+        "dist/angular-connection-service/*"
       ]
     }
   }
